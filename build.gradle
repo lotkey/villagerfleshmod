@@ -4,9 +4,9 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '0.0.1-1.19.4'
+version = '1.19.4-0.0.0-forge'
 group = 'com.lotkey.villagerflesh' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'villagerflesh'
+archivesBaseName = "villagerflesh"
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
