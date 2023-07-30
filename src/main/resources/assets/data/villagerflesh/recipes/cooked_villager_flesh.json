@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "villagerflesh:villager_flesh"
+    },
+    "result": "villagerflesh:cooked_villager_flesh",
+    "experience": 0.35,
+    "cookingtime": 200
+}
