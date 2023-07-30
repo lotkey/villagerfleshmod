@@ -1,5 +1,7 @@
 # Villager Flesh
 
+<img src="./src/main/resources/logo.png" alt="bleeding villager head" width="200"/>
+
 Eat them all.
 
 ## Description
