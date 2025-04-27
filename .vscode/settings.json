@@ -18,6 +18,7 @@
         "REGISTRYDUMP",
         "reobf",
         "reobfuscate",
+        "softprops",
         "unobfuscated",
         "userdev",
         "villagerflesh"
