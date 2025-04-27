@@ -1,8 +1,8 @@
 # Villager Flesh
 
-<img src="./src/main/resources/logo.png" alt="bleeding villager head" width="200"/>
+<img src="./src/main/resources/logo.png" alt="bleeding villager head" height="200px" width="100%" style="object-fit: contain;"/>
 
-Eat them all.
+<p style="width: 100%; text-align: center;">Eat them all.</p>
 
 ## Description
 

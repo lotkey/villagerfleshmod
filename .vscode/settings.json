@@ -1,4 +1,23 @@
 {
     "java.compile.nullAnalysis.mode": "automatic",
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "cSpell.words": [
+        "accesstransformer",
+        "gametest",
+        "gametests",
+        "gradlew",
+        "javadocs",
+        "javafml",
+        "jvmargs",
+        "mcmodsrepo",
+        "minecraftforge",
+        "Mojang",
+        "println",
+        "REGISTRYDUMP",
+        "reobf",
+        "reobfuscate",
+        "unobfuscated",
+        "userdev",
+        "villagerflesh"
+    ]
 }
