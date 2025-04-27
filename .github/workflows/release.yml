@@ -19,6 +19,9 @@ jobs:
         distribution: 'adopt'
         java-version: '17'
 
+    - name: Fix Script Permissions
+      run: chmod +x ./gradlew
+
     - name: Build the mod
       run: ./gradlew build
 
