@@ -6,7 +6,7 @@
             "type": "node-terminal",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "command": "${workspaceFolder}\\gradlew.bat runClient"
+            "command": "${workspaceFolder}\\gradlew.bat runClient --warning-mode all"
         }
     ]
 }
