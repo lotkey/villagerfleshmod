@@ -20,7 +20,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
 @Mod.EventBusSubscriber(modid = VillagerFlesh.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-public class CreativeTab {
+public class CreativeTabs {
         public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister
                         .create(Registries.CREATIVE_MODE_TAB, VillagerFlesh.MOD_ID);
 
