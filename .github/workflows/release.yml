@@ -8,6 +8,9 @@ on:
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
 
     steps:
     - name: Checkout code
@@ -34,8 +37,6 @@ jobs:
 
     - name: Release
       uses: softprops/action-gh-release@v2
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         files: build/libs/*.jar
         name: Release ${{ github.ref_name }}
