@@ -1,7 +1,7 @@
 package com.lotkey.villagerflesh;
 
 import com.lotkey.villagerflesh.item.ModItems;
-import com.lotkey.villagerflesh.tab.CreativeTab;
+import com.lotkey.villagerflesh.tab.CreativeTabs;
 
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -22,7 +22,7 @@ public class VillagerFlesh {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
-        CreativeTab.register(modEventBus);
+        CreativeTabs.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
