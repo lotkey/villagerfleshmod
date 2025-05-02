@@ -23,6 +23,6 @@ Finally! Villagers drop their flesh. Now auto villager breeders have another use
 [[dependencies.villagerflesh]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.1,1.20.2)"
+    versionRange="[1.20.2,1.20.3)"
     ordering="NONE"
     side="BOTH"
