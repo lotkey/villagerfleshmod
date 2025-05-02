@@ -13,27 +13,20 @@ jobs:
       packages: write
 
     steps:
-    - name: Checkout code
+    - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Set up JDK 17
+    - name: JDK Setup
       uses: actions/setup-java@v4
       with:
         distribution: 'adopt'
         java-version: '17'
 
-    - name: Fix Script Permissions
+    - name: Fix Build Script Permissions
       run: chmod +x ./gradlew
 
-    - name: Build the mod
+    - name: Build
       run: ./gradlew build
-
-    - name: Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: forge-mod
-        path: build/libs/*.jar
-        if-no-files-found: error
 
     - name: Release
       uses: softprops/action-gh-release@v2
