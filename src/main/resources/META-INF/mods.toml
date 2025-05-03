@@ -1,28 +1,26 @@
 modLoader="javafml"
-loaderVersion="[49.2.0,)"
-license="GPLv3"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
 
 [[mods]]
 
-modId="villagerflesh"
-version="0.1"
-displayName="Villager Flesh"
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
 logoFile="logo.png"
-authors="Lotkey"
-description='''
-Finally! Villagers drop their flesh. Now auto villager breeders have another use...
-'''
+authors="${mod_authors}"
+description='''${mod_description}'''
 
 [[dependencies.villagerflesh]]
     modId="forge"
     mandatory=true
-    versionRange="[49.2.0,)"
+    versionRange="${forge_version_range}"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.villagerflesh]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.4]"
+    versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"

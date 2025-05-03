@@ -9,10 +9,10 @@
                 "isDefault": true
             },
             "windows": {
-                "command": ".\\gradlew.bat build --warning-mode all",
+                "command": ".\\gradlew.bat build",
             },
             "linux": {
-                "command": "./gradlew build --warning-mode all",
+                "command": "./gradlew build",
             },
         }
     ]
