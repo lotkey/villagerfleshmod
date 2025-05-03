@@ -18,8 +18,8 @@ public class VillagerFlesh {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "villagerflesh";
 
-    public VillagerFlesh() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+    public VillagerFlesh(FMLJavaModLoadingContext context) {
+        IEventBus modEventBus = context.getModEventBus();
 
         ModItems.register(modEventBus);
         CreativeTabs.register(modEventBus);

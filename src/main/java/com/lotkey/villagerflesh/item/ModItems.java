@@ -23,12 +23,12 @@ public class ModItems {
 
         public static class Foods {
                 public static final FoodProperties VILLAGER_FLESH = new FoodProperties.Builder().nutrition(3)
-                                .saturationMod(0.3F).meat()
-                                .effect(() -> new MobEffectInstance(MobEffects.BAD_OMEN, -1, 1), 0.05f)
+                                .saturationModifier(0.3F)
+                                .effect(new MobEffectInstance(MobEffects.BAD_OMEN, -1, 1), 0.05f)
                                 .build();
                 public static final FoodProperties COOKED_VILLAGER_FLESH = new FoodProperties.Builder().nutrition(8)
-                                .saturationMod(0.8F).meat()
-                                .effect(() -> new MobEffectInstance(MobEffects.BAD_OMEN, -1, 1), 0.025f).build();
+                                .saturationModifier(0.8F)
+                                .effect(new MobEffectInstance(MobEffects.BAD_OMEN, -1, 1), 0.025f).build();
         }
 
         public static void register(IEventBus eventBus) {

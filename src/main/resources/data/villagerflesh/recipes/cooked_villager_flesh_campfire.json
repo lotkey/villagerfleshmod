@@ -3,7 +3,9 @@
   "ingredient": {
     "item": "villagerflesh:villager_flesh"
   },
-  "result": "villagerflesh:cooked_villager_flesh",
+  "result": {
+    "id": "villagerflesh:cooked_villager_flesh"
+  },
   "experience": 0.35,
   "cookingtime": 600
 }
