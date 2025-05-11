@@ -1,27 +1,5 @@
 {
     "java.compile.nullAnalysis.mode": "automatic",
     "java.configuration.updateBuildConfiguration": "interactive",
-    "files.eol": "\n",
-    "cSpell.words": [
-        "accesstransformer",
-        "cookingtime",
-        "gametest",
-        "gametests",
-        "gradlew",
-        "javadocs",
-        "javafml",
-        "jvmargs",
-        "mcmodsrepo",
-        "minecraftforge",
-        "Mojang",
-        "nogui",
-        "println",
-        "REGISTRYDUMP",
-        "reobf",
-        "reobfuscate",
-        "softprops",
-        "unobfuscated",
-        "userdev",
-        "villagerflesh"
-    ]
+    "files.eol": "\n"
 }
